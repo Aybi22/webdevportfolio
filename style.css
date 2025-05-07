@@ -1,0 +1,23 @@
+:root{
+--title-color:#002D5B;
+--background-color:#FEFAFA;
+--section-background:#FDF5F5;
+--button-color:#EC5B53;
+--text-color:#FFFFFF;
+
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100vh;
+}
