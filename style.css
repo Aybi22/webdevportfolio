@@ -13,8 +13,31 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-}
+    font-family:Playfair Display;
+  
 
+}
+h3{
+    font-size:1rem;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+p,button,input,textarea,a,h3,label{
+    font-family:Montserrat;
+    font-size:1rem;
+}
+.logo{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+}
+.custom-logo{
+    color:var(--text-color);
+    font-weight:900;
+    font-family:Monserrat;
+}
 html,body{
     margin:0;
     padding:0;
@@ -22,9 +45,21 @@ html,body{
     height:100vh;
     
 }
+.custom-shadow{
+   border:1px solid black;
+   gap:11px;
+}
 
-img{
-    object-fit:cover;
+.project-image {
+   
+    height: 250px;
+    object-fit:contain;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Optional: nice shadow */
+    border-radius: 8px; /* Optional: smooth corners */
+  }
+.custom-card{
+    height:500px;
+    width:400px;
 }
 
 .custom-heading{
@@ -38,9 +73,34 @@ img{
 .custom-width{
    width:700px;
 }
+h3{
+    text-transform:capitalize;
+}
+.project-card{
+   height:100%;
+}
+
+.card-img-top{
+    width:100px;
+    height:100px;
+    margin:auto;
+}
+.project-card img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+   width:100%;
+   height:500px;;
+   display:block;
+    
+  }
+.project-card:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
 
 .icon-size{
-    font-size:1.5rem;
+    font-size:6.5rem;
+    color:var(--title-color)
 }
 .about-section{
     background-color:var(--background-color);
@@ -61,7 +121,9 @@ img{
 .custom-button{
     width:150px;
 }
-
+.custom-flex{
+    margin-top: auto;
+}
 .mockup{
     width:900px;
     height:600px;
@@ -70,6 +132,9 @@ img{
 
    
 }
+
+
+  
 
 .portfolio-parallax {
     /* The image used */
@@ -125,6 +190,7 @@ img{
     border-bottom:2px solid var(--button-color);
    width:15%;
    padding:33px;
+   margin-top:3rem;
 }
 
 
@@ -155,3 +221,43 @@ img{
 .bootstrap{width:75%  ; background:var(--button-color)}
 .git{width:70%  ; background:var(--button-color)  }
 .react{width:10% ; background:var(--button-color)  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-body d-flex flex-column justify-content-between">
+    
+
+
+<div class="col-md-4">
+<div class="project  border rounded  d-flex flex-column align-items-center h-90">
+  
+  
+  <img src="images/restaurant.png" class="img-fluid uniform-img rounded mb-2" alt="Restaurant">
+
+ <div class="custom-flex">
+
+<h3 class=  "text-xl font-semibold text-gray-800 mb-2 text-capitalize  text-center  mt-5 ">restaurant Website</h3>
+  
+<p class="text-gray-600 text-center mb-4">Fully responsive food ordering website built with HTML, CSS, JavaScript.</p>
+
+
+
+
+<div class="project-links  d-flex gap-4 justify-content-center mt-5">
+  <a class="btn btn-danger me-2  custom-button" href="https://aybi22.github.io/restaurantwebsite/" target="_blank">Live Demo</a>
+  <a class="btn btn-outline-dark  custom-button" href="https://github.com/Aybi22/restaurantwebsite" target="_blank">GitHub</a>
+</div>
+</div>
+</div>
+</div>
