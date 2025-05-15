@@ -17,12 +17,45 @@
   
 
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .skill-icon {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .skill-icon:hover {
+    transform: scale(1.1);
+  
+  }
+
+
+
+  .custom-bg{
+    background-color:#FDF5F5; 
+    width:600px;
+  }
+
+.custom-icon{
+    font-size:1.5rem;
+    vertical-align:baseline;
+}
+.custom-icon:hover{
+    color:var(--button-color);
+}
+.custom-size{
+    font-weight:700;
+    font-size:2rem;
+}
 h3{
     font-size:1rem;
 }
 a{
     color:black;
     text-decoration: none;
+    font-family: Montserrat;
+    text-transform: capitalize;
 }
 p,button,input,textarea,a,h3,label{
     font-family:Montserrat;
@@ -120,6 +153,7 @@ h3{
 }
 .custom-button{
     width:150px;
+    margin-bottom:2rem;
 }
 .custom-flex{
     margin-top: auto;
@@ -132,7 +166,9 @@ h3{
 
    
 }
-
+.my-flex{
+    gap:3rem;
+}
 
   
 
@@ -188,7 +224,7 @@ h3{
   
   margin:auto;
     border-bottom:2px solid var(--button-color);
-   width:15%;
+   width:500px;
    padding:33px;
    margin-top:3rem;
 }
@@ -223,41 +259,59 @@ h3{
 .react{width:10% ; background:var(--button-color)  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="card-body d-flex flex-column justify-content-between">
+@media screen and (max-width:768px){
+   .responsive-text{
+    font-size:1rem;
+   
+   }
+   .custom-button{
+    width:50%;
+   }
+.custom-heading{
+    font-size:2rem;
+    text-align: center;
+   }
+   .custom-width{
+    width:100%;
+   }
+   .custom-card{
+    width:100%;
+   }
+   .project-card img {
+    height:300px;
+   }
+   .mockup{
+    width:400px;
+    height:300px;
+   }
+   .portfolio-parallax {
+    height: 300px; 
+  }
+  .parallax-text{
+    font-size:2rem;
     
+  }
+  .custom-underline{
+    width:90%;
+  }
+  .custom-button{
+    width:auto;
+    
+  }
+  .custom-icon{
+    font-size:1.5rem;
+  }
+}
 
 
-<div class="col-md-4">
-<div class="project  border rounded  d-flex flex-column align-items-center h-90">
-  
-  
-  <img src="images/restaurant.png" class="img-fluid uniform-img rounded mb-2" alt="Restaurant">
-
- <div class="custom-flex">
-
-<h3 class=  "text-xl font-semibold text-gray-800 mb-2 text-capitalize  text-center  mt-5 ">restaurant Website</h3>
-  
-<p class="text-gray-600 text-center mb-4">Fully responsive food ordering website built with HTML, CSS, JavaScript.</p>
 
 
 
 
-<div class="project-links  d-flex gap-4 justify-content-center mt-5">
-  <a class="btn btn-danger me-2  custom-button" href="https://aybi22.github.io/restaurantwebsite/" target="_blank">Live Demo</a>
-  <a class="btn btn-outline-dark  custom-button" href="https://github.com/Aybi22/restaurantwebsite" target="_blank">GitHub</a>
-</div>
-</div>
-</div>
-</div>
+
+
+
+
+
+
+ 

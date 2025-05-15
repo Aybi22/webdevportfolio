@@ -59,41 +59,42 @@
       
   
   
-      <section  class="container d-flex justify-content-center align-items-start mt-6 ">
+      <section  class="container d-flex flex-column  flex-md-row justify-content-center my-flex  mt-6 ">
   
     <div class="hero-text custom-width ">
       <h1 class=" fw-bold  custom-heading">
           I am a web developer. 
          Ibrahima Kamagate
       </h1>
-     <a href="https://www.linkedin.com/in/ibrahima-kamagate-0904b8191/" ><i class="fa-brands fa-linkedin "></i></a>
-      <a href="mailto:ibrakam047@gmail.com"><i class="fa-solid fa-envelope  "></i></a>
+      <div class="social-icons mt-3 mb-3">
+     <a href="https://www.linkedin.com/in/ibrahima-kamagate-0904b8191/" ><i class="fa-brands fa-linkedin custom-icon "></i></a>
+      <a href="mailto:ibrakam047@gmail.com"><i class="fa-solid fa-envelope custom-icon "></i></a>
+      </div>
       
       
-      
-      <p class="text-secondary"  style="line-height:1.8">As a creative person, 
+      <p class="text-secondary  responsive-text  "  style="line-height:1.8">As a creative person, 
         with a great passion for web development,I am continuously upgrading and updating my skills.
       </p>
-      <button type="button" class="btn btn-danger mt-3   custom-button ">View Projects</button>
+      <button type="button" class="btn btn-danger mt-3  custom-button ">View Projects</button>
     </div>
    
     <div class="image p-2    image-wrapper" style="flex: 1 1 45%;">
-      <img src="images/webdev6.jpg" class="img-fluid  rounded shadow"  alt="Responsive image" style="max-width: 100%; height:500px;">
+      <img src="images/webdev6.jpg" class="img-fluid  rounded shadow "  alt="Responsive image" style="max-width: 100%; height:500px;">
     </div>
   
   </section>
 
   <!-- 🧑‍💼 ABOUT ME -->
-  <section class="mt-6  bg-white">
+  <section id="#about" class="mt-6  bg-white">
  
   
     <h2  class="text-capitalize  fw-bold  text-center h2-color">About Me</h2>
-  <p class="text-center w-25  custom-underline   text-capitalize    ">Want to know who I am and what I do? discover all the information about me </p>
+  <p class="text-center  custom-underline   text-capitalize" style="line-height:1.8" >Want to know who I am and what I do? discover all the information about me </p>
 
-  <div class=" container d-flex flex-row mb-2  justify-content-center align-items-start mt-3">
+  <div class=" container d-flex flex-column flex-md-row  flex-row mb-2 gap-4 justify-content-center align-items-start mt-3">
     <div class="hero-text custom-width  mt-5">
    <h3>who I am</h3>
-    <p style="line-height:1.8">
+    <p style="line-height:1.8"   class="responsive-text">
       
       Hi! My name is ibrahima kamagate and I recently graduated from birkbeck,university of 
       London after completing a Master of Arts in Digital Media Design. I am passionate about web development with a focus on creating accessible,
@@ -105,10 +106,10 @@
     
     <h3>what I do</h3>
     
-    <p style="line-height:1.8">I’m a passionate developer who builds responsive and engaging websites 
+    <p style="line-height:1.8"  class=" responsive-text">I’m a passionate developer who builds responsive and engaging websites 
       with technologies like HTML,CSS and Javascript.
-      I can 
-      create mockups and wireframes using Figma and Adobe XD.
+      I can also create high-fidelity prototypes and wireframes using Figma and Adobe XD.
+      
     </p>
     
     
@@ -126,26 +127,29 @@
   </section>
 
 <!--end of about me section-->
-<section>
+<section class="mt-6 " >
 
   <h2  class="text-capitalize  fw-bold  text-center h2-color " >services I am providing</h2>
 
-  <p class="text-center  w-25  text-capitalize   custom-underline"> Discover the services I am providing </p>
+  <p class="text-center    text-capitalize   custom-underline   responsive-text " style="line-height:1.8" > 
+I am excellent at both designing and developing websites. That means I can 
+take projects from initial concept and wireframe all the way to a fully responsive,functional site </p>
 
   <div class="container"><!--justify content center only works on flex-container-->
-    <div class="row  justify-content-center gap-4  mt-5  ">
+    <div class="row d-flex flex-column flex-md-row justify-content-center gap-4  mt-5  ">
       <div class="col-md-4 mb-4">
-        <div class="card  shadow-sm p-5  d-flex flex-column custom-card  w-100 h-100 ">
+        <div class="card  shadow-sm p-5  d-flex flex-column  custom-card  w-100 h-100 ">
           <img src="images/computer1.png" class="card-img-top" width="100" alt="Project 1">
           <div class="card-body  text-center d-flex flex-column flex-grow-1">
             <h3 class="card-title">web development</h3>
-            <p class="card-text  custom-margin">
+            <p class="card-text  custom-margin responsive-text"  style="line-height:1.8">
               I specialize in building high-fidelity websites from wireframes and prototypes. 
               With strong coding skills, I deliver clean, responsive, and accessible websites using HTML, CSS, Bootstrap, 
               and JavaScript — all optimized for performance and user experience.
             </p>
-            <a href="https://congenial-doodle-4kpne7o.pages.github.io/" class="btn btn-danger  mt-auto">more</a>
-            
+            <div class="text-center">
+            <a href="https://congenial-doodle-4kpne7o.pages.github.io/" class="btn btn-danger custom-button mt-auto">more</a>
+            </div>
           </div>
         </div>
         </div>
@@ -161,7 +165,7 @@
               <div class="card-body d-flex flex-column text-center flex-grow-1">
                
                 <h3 class="card-title">web design</h3>
-                <p class="card-text  custom-margin">
+                <p class="card-text  custom-margin   responsive-text  "  style="line-height:1.8">
 
                   I design intuitive user interfaces by creating wireframes, mockups, and high-fidelity prototypes using Figma.
                    My design approach focuses on usability, visual clarity, 
@@ -170,8 +174,10 @@
 
 
                </p>
-                <a href="https://curly-adventure-g3womyg.pages.github.io/" class="btn btn-danger  mt-auto">More</a>
-                
+               <div class="text-center">
+                <a href="https://curly-adventure-g3womyg.pages.github.io/" class="btn btn-danger custom-button
+                 mt-auto">More</a>
+                </div>
               </div>
             </div>
       </div>
@@ -201,18 +207,20 @@
 
 </section>
 
-  <section  class="mt-5">
-    <h2  class="text-capitalize  fw-bold  text-center h2-color " >Skills</h2>
-    <p class="text-center  w-25  text-capitalize   custom-underline"> Discover my skills </p>
+  <section  class="mt-6">
+    <h2  class="text-capitalize  fw-bold  text-center h2-color " >My Skills</h2>
+    <p class="text-center    text-capitalize   responsive-text custom-underline"  style="line-height:1.8" > I blend creativity and logic to design and build websites
+      that are both appealing and functional.Below are the tools and skills I 
+    use to bring ideas to life </p>
   
   
-    <div id="skills"   class="fluid-container  d-flex  justify-content-center mt-5   gap-md-5">
+    <div id="skills"   class="  d-flex  flex-column flex-md-row  justify-content-center mt-5   gap-md-5">
 
     
     
-    <div class="bg-white p-4 border rounded shadow-sm p-5  w-50   text-center">
+    <div class="bg-white p-4 border rounded shadow-sm p-5  w-50 flex-grow-1  text-center">
       
-        <i class="fa-brands fa-html5   icon-size"></i>
+        <i class="fa-brands fa-html5   icon-size skill-icon "></i>
    <h3 class="text-capitalize" >HTML5</h3>
    <p></p>
    
@@ -225,7 +233,7 @@
 
      <div class=" bg-white p-4 border rounded shadow-sm p-5   w-50   text-center  ">
      
-        <i class="fa-brands fa-css   icon-size"></i>
+        <i class="fa-brands fa-css   icon-size   skill-icon "></i>
 <h3 class="text-capitalize" >CSS</h3>
 <p></p>
       
@@ -242,7 +250,7 @@
       
      
 
-        <i class="fa-brands fa-figma   icon-size "></i>
+        <i class="fa-brands fa-figma  icon-size   skill-icon "></i>
 <h3 class="text-capitalize" >figma</h3>
       
     <p></p>  
@@ -254,7 +262,7 @@
 
     <div class="bg-white p-4 border rounded shadow-sm  p-5   w-50   text-center " > 
       
-        <i class="fa-brands fa-js icon-size"></i>
+        <i class="fa-brands fa-js icon-size  skill-icon "></i>
 <h3 class="text-capitalize">javascript</h3>
    <p></p> 
    <div class="skill-container  rounded  ">
@@ -267,7 +275,7 @@
     
     <div class="bg-white p-4 border rounded shadow-sm  p-5      w-50   text-center ">
     
-        <i class="fa-brands fa-bootstrap  icon-size"></i>
+        <i class="fa-brands fa-bootstrap  icon-size  skill-icon  "></i>
       <h3 class="text-capitalize">bootstrap</h3>
       <p></p>
       <div class="skill-container rounded  ">
@@ -278,7 +286,7 @@
     </div>
       <div class="bg-white p-4 border rounded shadow-sm  p-5  w-50   text-center">
       
-        <i class="fa-brands fa-git-alt   icon-size"></i>
+        <i class="fa-brands fa-git-alt icon-size   skill-icon "></i>
 <h3 class="text-capitalize" >git</h3>
     <p></p>  
     <div class="skill-container  rounded">
@@ -290,7 +298,7 @@
       
   
   
-  <i class="fa-brands fa-react  icon-size"></i>
+  <i class="fa-brands fa-react icon-size   skill-icon  "></i>
 
 <h3 class="text-capitalize" >react</h3>
 <p></p>   
@@ -322,11 +330,12 @@
 
 
   <!-- 💼 PROJECTS -->
-  <section  class="mt-6" >
+  <section id="Projects"  class="mt-6" >
 
       <h2 class="text-center text-capitalize  fw-bold  h2-color mb-4">My Portfolio</h2>
-      <p class="text-center w-25  custom-underline   text-capitalize    ">
-        discover the projects I have built with web technologies </p>
+      <p class="text-center   custom-underline   responsive-text text-capitalize"   style="line-height:1.8">
+        These projects combine clean design with solid code. Whether it is designing user-friendly
+      layouts or developing interactive features, I love turning ideas into polished web experiences </p>
 
 
       <!-- Add spacing between items -->
@@ -370,7 +379,8 @@
          
          
           <div class="project-links  d-flex gap-4 justify-content-center mt-5">
-            <a class="btn btn-danger me-2  custom-button" href="https://aybi22.github.io/restaurantwebsite/" target="_blank">Live Demo</a>
+            
+            <a class="btn btn-danger   custom-button" href="https://aybi22.github.io/restaurantwebsite/" target="_blank">Live Demo</a>
             <a class="btn btn-outline-dark  custom-button" href="https://github.com/Aybi22/restaurantwebsite" target="_blank">GitHub</a>
           </div>
         </div>
@@ -390,7 +400,7 @@
             
     <p  class="text-gray-600 text-center mb-4">Fully responsive user feedback app built with HTML, CSS, JavaScript.</p>
     <div class="project-links d-flex gap-4 justify-content-center">
-      <a class="btn btn-danger me-2  custom-button" href="https://cuddly-fiesta-q4qwn78.pages.github.io/" target="_blank">Live Demo</a>
+      <a class="btn btn-danger  custom-button" href="https://cuddly-fiesta-q4qwn78.pages.github.io/" target="_blank">Live Demo</a>
       <a class="btn btn-outline-dark  custom-button" href="https://github.com/Birkbeck2/vdwp2223-web-project-user-feedback-Aybi22" target="_blank">GitHub</a>
     </div>  <!-- Add more projects here similarly -->
 
@@ -410,7 +420,7 @@
   
 <p class="text-gray-600 text-center mb-4" >hi-fi Protype built with Figma.</p>
 <div class="project-links d-flex gap-4 justify-content-center">
-<a class="btn btn-danger me-2  custom-button" href="https://curly-adventure-g3womyg.pages.github.io/" target="_blank">Live Demo</a>
+<a class="btn btn-danger   custom-button" href="https://curly-adventure-g3womyg.pages.github.io/" target="_blank">Live Demo</a>
 <a class="btn btn-outline-dark  custom-button" href="https://github.com/Birkbeck2/web-development-and-user-experience---assessment-02-Aybi22.git" target="_blank">GitHub</a>
 </div>  <!-- Add more projects here similarly -->
 </div>
@@ -436,7 +446,7 @@
        
         
 <p  class="text-gray-600 text-center mb-4"  >digital fashion magazine built with Figma, affinity photo and affinity designer.</p>
-<div class="project-links  d-flex gap-4 justify-content-center">
+<div class="project-links text-center justify-content-center">
   <a class="btn btn-danger me-2  custom-button" href="images/magazine.pdf" target="_blank">Live Demo</a>
   
 </div>  <!-- Add more projects here similarly -->
@@ -453,11 +463,11 @@
  
  </div>
 
-  <h3 class="text-xl font-semibold text-gray-800 mb-2 text-capitalize  text-center  mt-5  ">portfolio website</h3>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2 text-capitalize  text-center  mt-5 ">portfolio website</h3>
  
   
 <p class="text-gray-600 text-center mb-4" >portfolio website built with HTML, CSS  and bootstrap.</p>
-<div class="project-links d-flex gap-4 justify-content-center">
+<div class="project-links d-flex gap-2 justify-content-center">
 <a class="btn btn-danger me-2  custom-button" href="https://aybi22.github.io/restaurantwebsite/" target="_blank">Live Demo</a>
 <a class="btn btn-outline-dark  custom-button" href="https://github.com/Aybi22/restaurantwebsite" target="_blank">GitHub</a>
 </div>  <!-- Add more projects here similarly -->
@@ -513,27 +523,36 @@
   <!-- 📬 CONTACT -->
   
   <section class="section-padding mt-6">
-    <h2 class="text-capitalize fw-bold  text-center h2-color   ">Contact Me</h2>
-    <p class="text-center  w-25 custom-underline  text-capitalize "> Discover how to get in touch with me </p>
+    <h2 class="text-capitalize fw-bold  text-center h2-color ">Contact Me</h2>
+    <p class="text-center   custom-underline  text-capitalize "> Discover how to get in touch with me </p>
   <div id="contact" class="d-flex container justify-content-center">
     
     
     <div class="  mt-5">
+      
+      
+     <p style="line-height:1.8">Want to get in touch? Do not hesitate to leave 
+      a message, I will get back to you as soon as possible.</p>
+      <p>Or you can reach me on my social media:</p>
+      <a href="https://www.linkedin.com/in/ibrahima-kamagate-0904b8191/" ><i class="fa-brands fa-linkedin custom-icon"></i></a>
       <h3>My contacts</h3>
-      <p><i class="fa-solid fa-phone"></i> 07916905351</p>
-      <p><i class="fa-solid fa-envelope"></i> ibrakam047@gmail.com</p>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-solid fa-envelope"></i>
-     
+      <p><i class="fa-solid fa-phone custom-icon"></i><span class="custom-size"> 07916905351</span></p>
+      <p><i class="fa-solid fa-envelope  custom-icon"></i>  ibrakam047@gmail.com</p>
+    
+    
+    
+    
+    
     </div>
     
-  <div class="container  mt-5 ">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
+  
+    <div class="container  mt-5 ">
+      <div class="row justify-content-center gap-4">
+        <div class="col-md-6 mb-4 mb-md-0">
           <div class="card shadow-sm">
             <div class="card-body">
-              <h4 class="card-title mb-4">Contact Us</h4>
-              <form action="https://formspree.io/f/myzwdwwd" method="POST">
+              <h4 class="card-title mb-4">Contact Me</h4>
+              <form action="https://formspree.io/f/myzwdwwd" class="custom-bg  p-5" method="POST">
                 <div class="mb-3">
                   <label for="name" class="form-label">Full Name</label>
                   <input type="text"  name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -556,8 +575,6 @@
     </div>
   </section>
 
-  
-  
   
   
   
@@ -598,10 +615,18 @@
   
   
   <!-- 📜 FOOTER -->
-  <footer class="footer-background p-5">
+  <footer class="footer-background p-5   mt-6">
+    <div class="container d-flex flex-column flex-md-row  justify-content-around  align-items-center  border-bottom  mb-5 pb-2 ">
     <p>© 2025 ibrahima kamagate. All rights reserved.</p>
-    <p><i class="fa-solid fa-phone"></i>  07916905351</p>
-    <p><i class="fa-solid fa-envelope"></i> ibrakam047@gmail.com</p>
+    <div class="logo bg-danger d-flex justify-content-center align-items-center custom-logo">IK</div>
+    <p><i class="fa-solid fa-phone  custom-icon"></i>  07916905351</p>
+    <p><i class="fa-solid fa-envelope   custom-icon"></i> ibrakam047@gmail.com</p>
+
+    
+  </div>
+  <p class="text-center">Personal Portfolio Website</p>
+ 
+  
   </footer>
 
 
