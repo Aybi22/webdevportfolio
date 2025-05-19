@@ -18,6 +18,15 @@
 
 }
 
+html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+    min-height:100vh;
+    
+}
+
+
 html {
     scroll-behavior: smooth;
   }
@@ -29,12 +38,33 @@ html {
     transform: scale(1.1);
   
   }
-
+  .skill-icon-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  .skill-icon-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 255, 255, 0.1);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: -1;
+  }
+  .skill-icon-wrapper:hover::before {
+    opacity: 1;
+  }
+ 
 
 
   .custom-bg{
     background-color:#FDF5F5; 
-    width:600px;
+    max-width:600px;
+    width:100%
   }
 
 .custom-icon{
@@ -63,6 +93,7 @@ p,button,input,textarea,a,h3,label{
 }
 .logo{
     width:50px;
+    
     height:50px;
     border-radius: 100%;
 }
@@ -71,13 +102,7 @@ p,button,input,textarea,a,h3,label{
     font-weight:900;
     font-family:Monserrat;
 }
-html,body{
-    margin:0;
-    padding:0;
-    width:100%;
-    height:100vh;
-    
-}
+
 .custom-shadow{
    border:1px solid black;
    gap:11px;
@@ -92,7 +117,8 @@ html,body{
   }
 .custom-card{
     height:500px;
-    width:400px;
+    max-width:400px;
+   
 }
 
 .custom-heading{
@@ -105,6 +131,7 @@ html,body{
 }
 .custom-width{
    width:700px;
+   
 }
 h3{
     text-transform:capitalize;
@@ -152,14 +179,16 @@ h3{
     padding:53px;
 }
 .custom-button{
-    width:150px;
+    max-width:150px;
+    width:100%;
     margin-bottom:2rem;
 }
 .custom-flex{
     margin-top: auto;
 }
 .mockup{
-    width:900px;
+    max-width:900px;
+    width:100%;
     height:600px;
     display:block;
     /*object-fit: cover cropping the top part of the image.it tells the browser to crop the image to fill the container completely */
@@ -179,6 +208,7 @@ h3{
     /* Full height */
     height: 500px; 
     width:100%;
+   
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -224,7 +254,8 @@ h3{
   
   margin:auto;
     border-bottom:2px solid var(--button-color);
-   width:500px;
+   max-width:500px;
+   width:100%;
    padding:33px;
    margin-top:3rem;
 }
