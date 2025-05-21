@@ -21,8 +21,8 @@
 html,body{
     margin:0;
     padding:0;
-    width:100%;
-    min-height:100vh;
+    
+   
     
 }
 
@@ -302,7 +302,8 @@ h3{
     font-size:2rem;
     text-align: center;
    }
-   .custom-width{
+  
+  .custom-width{
     width:100%;
    }
    .custom-card{
@@ -333,6 +334,22 @@ h3{
     font-size:1.5rem;
   }
 }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
 
 
 
