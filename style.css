@@ -63,7 +63,9 @@ html {
     opacity: 1;
   }
  
-
+.custom-shadow{
+  box-shadow: 0px 0px 45px 0px rgba(213, 191.23695652173913, 191.23695652173913, 0.5);
+}
 
   .custom-bg{
     background-color:#FDF5F5; 
@@ -187,9 +189,7 @@ h3{
     font-weight:600;
 }
 
-.section-padding{
-    padding:53px;
-}
+
 .custom-button{
     max-width:150px;
     width:100%;
