@@ -75,7 +75,9 @@ html {
 
 .custom-icon{
     font-size:1.5rem;
-    vertical-align:baseline;
+    color:var(--title-color);
+    height:20px;
+    width:20px;
 }
 .custom-icon:hover{
     color:var(--button-color);
