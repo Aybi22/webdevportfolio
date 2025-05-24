@@ -149,6 +149,13 @@ h3{
     height:100px;
     margin:auto;
 }
+
+.card-title{
+  text-transform:capitalize;
+  font-family:Playfair Display ;
+  color:var(--title-color);
+  font-size:1.5rem;
+}
 .project-card img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 8px;
@@ -276,23 +283,23 @@ h3{
     background-color:lightgray;
     overflow: hidden;
 }
-.skills{
-    text-align:right;
-    font-size:0.6rem;
-    font-weight:900;
-    color:var(--text-color);
-    width:0;
-    height:100%;
-    transition: width 1.5s ease-in-out;
+.skills {
+  width: 0;
+  height: 20px;
+  background-color: #dc3545; /* or any color */
+  color: #fff;
+  transition: width 1s ease-in-out;
+  padding-left: 5px;
+  text-align: left;
 }
 
-.html{width:90%;  background:var(--button-color)}
-.css{width:80%; background:var(--button-color) }
-.javascript{width:75%  ; background:var(--button-color)}
-.figma{width:85% ; background:var(--button-color)    }
-.bootstrap{width:75%  ; background:var(--button-color)}
-.git{width:70%  ; background:var(--button-color)  }
-.react{width:10% ; background:var(--button-color)  }
+.html{  background:var(--button-color)}
+.css{ background:var(--button-color) }
+.javascript{ background:var(--button-color)}
+.figma{ background:var(--button-color)    }
+.bootstrap{ background:var(--button-color)}
+.git{ background:var(--button-color)  }
+.react{ background:var(--button-color)  }
 
 
 @media screen and (max-width:768px){
