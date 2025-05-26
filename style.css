@@ -78,11 +78,13 @@ html {
   flex-grow:1;
   
  
-  border:4px solid red;
+ 
 }
-
+.custom-row{
+  border:2px solid red;
+}
 .custom-height{
-  border:3px solid blue;
+  
   display:flex;
   flex-direction: column;
   min-height:700px;
@@ -136,15 +138,17 @@ html {
     font-size:2rem;
 }
 h3{
-    font-size:1.3rem;
+    font-size:1.4rem;
     text-transform:capitalize;
     color:var(--title-color);
     font-weight:700;
 
   }
-
+.description li{
+  margin-bottom:0.4rem;
+}
   h4{
-    font-size:1rem;
+    font-size:1.2rem;
      color:var(--title-color);
      text-transform:capitalize;
      font-weight:600;
