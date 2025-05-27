@@ -22,7 +22,9 @@ li{
   font-family:Montserrat;
 }
 
-
+.custom-text{
+  font-size: 2rem;
+}
 
 html,body{
     margin:0;
@@ -384,9 +386,7 @@ p,button,input,textarea,a,label{
     font-size:1rem;
    
    }
-   .custom-button{
-    width:50%;
-   }
+   
 .custom-heading{
     font-size:2rem;
     text-align: center;
@@ -425,7 +425,13 @@ p,button,input,textarea,a,label{
 }
   
   
-  
+  @media (max-width: 480px) {
+  .custom-button {
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 0.7em 1.2em;
+  }
+}
   
   
   
