@@ -189,6 +189,10 @@ p,button,input,textarea,a,label{
     font-weight:900;
     font-family:Monserrat;
 }
+.logo-name{
+  font-family: dancing script;
+  font-size:2.5rem;
+}
 
 .custom-shadow{
    border:1px solid black;
