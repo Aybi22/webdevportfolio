@@ -271,7 +271,9 @@ p,button,input,textarea,a,label{
     color:var(--text-color);
     font-weight:600;
 }
-
+.custom-gap{
+  gap:33px;
+}
 
 .custom-button{
     max-width:150px;
