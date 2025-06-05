@@ -276,7 +276,7 @@ p,button,input,textarea,a,label{
 .custom-button{
     max-width:150px;
     width:100%;
-    margin-bottom:2rem;
+    margin-top:2rem;
     font-family: Montserrat;
     font-weight:500;
     padding:0.7rem;
@@ -379,6 +379,8 @@ p,button,input,textarea,a,label{
   transition: width 1s ease-in-out;
   padding-left: 5px;
   text-align: left;
+  font-family: Montserrat;
+  font-weight:700;
 }
 
 .html{  background:var(--button-color)}
