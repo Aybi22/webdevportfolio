@@ -277,6 +277,9 @@ p,button,input,textarea,a,label{
     max-width:150px;
     width:100%;
     margin-bottom:2rem;
+    font-family: Montserrat;
+    font-weight:500;
+    padding:0.7rem;
 }
 .custom-flex{
     margin-top: auto;
@@ -354,7 +357,9 @@ p,button,input,textarea,a,label{
    padding:33px;
    
 }
-
+.custom-border{
+  border:2px solid red;
+}
 
 .parallax-content{
    
@@ -383,6 +388,22 @@ p,button,input,textarea,a,label{
 .bootstrap{ background:var(--button-color)}
 .git{ background:var(--button-color)  }
 .react{ background:var(--button-color)  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:768px){
@@ -437,7 +458,22 @@ p,button,input,textarea,a,label{
   }
 }
   
+  @media (min-width: 768px) and (max-width:1203px){
+    .custom-width{
+      margin:1rem;
+    }
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
   
   
   
