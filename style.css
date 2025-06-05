@@ -388,12 +388,12 @@ p,button,input,textarea,a,label{
 @media screen and (max-width:768px){
    .responsive-text{
     font-size:1rem;
-   
+    
    }
    
 .custom-heading{
     font-size:2rem;
-    text-align: center;
+    
    }
   
   .custom-width{
@@ -448,7 +448,7 @@ p,button,input,textarea,a,label{
   
   
   
-  }
+  
 
 
 
