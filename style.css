@@ -29,11 +29,11 @@ li{
 html,body{
     margin:0;
     padding:0;
-    
-   
-    
-}
+    }
 
+    .custom-margin{
+      margin-top:1rem;
+    }
 
 html {
     scroll-behavior: smooth;
@@ -207,8 +207,9 @@ p,button,input,textarea,a,label{
     border-radius: 8px; /* Optional: smooth corners */
   }
 .custom-card{
-    height:500px;
-    max-width:400px;
+   width:600px;
+  
+   
    
 }
 
@@ -278,10 +279,16 @@ p,button,input,textarea,a,label{
 .custom-button{
     max-width:150px;
     width:100%;
-    margin-top:2rem;
+    margin-bottom: 2rem;
     font-family: Montserrat;
     font-weight:500;
     padding:0.7rem;
+}
+
+.nav-btn{
+width:100%;
+padding:0.7rem;
+font-weight:700;
 }
 .custom-flex{
     margin-top: auto;
@@ -415,7 +422,7 @@ p,button,input,textarea,a,label{
     font-size:1rem;
     
    }
-   
+ 
 .custom-heading{
     font-size:2rem;
     
@@ -466,18 +473,28 @@ p,button,input,textarea,a,label{
     .custom-width{
       margin:1rem;
     }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  .custom-heading{
+   
+    font-size:2rem;
   }
+
+ 
+
+
+}
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
