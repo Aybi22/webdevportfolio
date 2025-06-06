@@ -18,6 +18,11 @@
 
 }
 
+
+
+
+
+
 li{
   font-family:Montserrat;
 }
@@ -207,7 +212,8 @@ p,button,input,textarea,a,label{
     border-radius: 8px; /* Optional: smooth corners */
   }
 .custom-card{
-   width:600px;
+  min-width: none;
+   min-height:600px;
   
    
    
@@ -259,6 +265,10 @@ p,button,input,textarea,a,label{
     font-size:6.5rem;
     color:var(--title-color);
     margin-bottom:1rem;
+     font-size: clamp(2.5rem, 6vw, 6rem);
+     display: inline-block;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 .about-section{
     background-color:var(--background-color);
@@ -477,7 +487,10 @@ font-weight:700;
    
     font-size:2rem;
   }
-
+.custom-card{
+  height:auto;
+  width:100%;
+}
  
 
 
