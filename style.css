@@ -215,7 +215,7 @@ p,button,input,textarea,a,label{
     border-radius: 8px; /* Optional: smooth corners */
   }
 .custom-card{
-  min-width: none;
+ 
    min-height:600px;
   
    
@@ -474,7 +474,7 @@ font-weight:700;
 }
   
   
-  @media (max-width: 480px) {
+  @media (max-width: 540px) {
   .custom-button {
     width: 100%;
     font-size: 0.95rem;
@@ -486,13 +486,30 @@ font-weight:700;
     .custom-width{
       margin:1rem;
     }
+    .custom-card{
+      max-width:500px;
+      width:100%;
+    
+      max-height:600px;
+    }
+
+    .custom-card p{
+      font-size:0.7rem;
+    }
+    .custom-h3{
+      font-size:1rem;
+    }
+
+    .custom-button{
+      width:80%;
+    }
   .custom-heading{
    
     font-size:2rem;
   }
-.custom-card{
-  height:auto;
-  width:100%;
+
+ 
+  
 }
  
 
