@@ -18,9 +18,10 @@
 
 }
 
-
-
-
+.hero-section{
+  border:7px solid red;
+  min-height:600px;
+}
 
 
 li{
