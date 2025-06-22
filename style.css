@@ -18,10 +18,9 @@
 
 }
 
-.hero-section{
-  border:7px solid red;
-  min-height:600px;
-}
+
+
+
 
 
 li{
@@ -320,9 +319,7 @@ font-weight:700;
     gap:3rem;
 }
 
-  .parallax-content{
-    color:red;
-  }
+  
 
 .portfolio-parallax {
     /* The image used */
@@ -330,7 +327,6 @@ font-weight:700;
  
     /* Full height */
     height: 500px; 
-    max-width:100%;
     width:100%;
    
   
@@ -380,9 +376,7 @@ font-weight:700;
     border-bottom:2px solid var(--button-color);
    max-width:500px;
    width:100%;
-   padding:2rem;
-   line-height: 1.8;
-   min-height: 2rem;
+   padding:33px;
    
 }
 .custom-border{
@@ -441,16 +435,6 @@ font-weight:700;
     font-size:1rem;
     
    }
-
- .custom-text{
-  font-size:1rem;
-  white-space: nowrap;
- }
-.custom-txt{
- font-size:0.9rem;
- white-space: nowrap;
-}
-
  
 .custom-heading{
     font-size:2rem;
@@ -470,7 +454,13 @@ font-weight:700;
     width:400px;
     height:300px;
    }
-   
+   .portfolio-parallax {
+    height: 300px; 
+  }
+  .parallax-text{
+    font-size:2rem;
+    
+  }
   .custom-underline{
     width:90%;
   }
@@ -481,28 +471,7 @@ font-weight:700;
   .custom-icon{
     font-size:1.5rem;
   }
-
-
-
-.portfolio-parallax {
-    background-attachment: scroll; /* mobile fix for parallax */
-  }
-
-  .portfolio-parallax .display-5 {
-    font-size: 1.8rem;
-  }
-
-  .custom-text {
-    font-size: 1rem;
-  }
 }
-
-
-
-
-
-
-
   
   
   @media (max-width: 540px) {
@@ -511,19 +480,6 @@ font-weight:700;
     font-size: 0.95rem;
     padding: 0.7em 1.2em;
   }
-
-.custom-text{
-  font-size:0.7rem;
-  white-space: nowrap;
- }
-.custom-txt{
- font-size:1.7rem;
- white-space: nowrap;
-}
-
-
-
-
 }
   
   @media (min-width: 768px) and (max-width:1203px){
@@ -551,23 +507,14 @@ font-weight:700;
    
     font-size:2rem;
   }
-.custom-title{
-  font-size:0.5rem;
-}
- .custom-text{
-  font-size:1.5rem;
 
- }
-.custom-txt{
- font-size:3rem;
-
-}
+ 
   
 }
  
 
 
-
+}
     
   
   
