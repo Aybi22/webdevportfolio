@@ -290,12 +290,24 @@ p,button,input,textarea,a,label{
 }
 
 .custom-button{
-    max-width:150px;
+    max-width:60%;
     width:100%;
     margin-bottom: 2rem;
     font-family: Montserrat;
     font-weight:500;
     padding:0.7rem;
+    
+}
+
+
+.special-button{
+    max-width:100%;
+    width:100%;
+    margin-bottom: 2rem;
+    font-family: Montserrat;
+    font-weight:500;
+    padding:0.5rem;
+    
 }
 
 .nav-btn{
@@ -327,7 +339,10 @@ font-weight:700;
  
     /* Full height */
     height: 500px; 
-    width:100%;
+  
+  width: 100vw;
+  max-width: 100%;
+
    
   
     /* Create the parallax scrolling effect */
@@ -440,6 +455,12 @@ font-weight:700;
     font-size:2rem;
     
    }
+   .custom-text{
+    font-size:0.7rem;
+   }
+   .custom-txt{
+    font-size:1rem;
+   }
   
   .custom-width{
     width:100%;
@@ -455,7 +476,7 @@ font-weight:700;
     height:300px;
    }
    .portfolio-parallax {
-    height: 300px; 
+    height: auto;
   }
   .parallax-text{
     font-size:2rem;
@@ -501,12 +522,13 @@ font-weight:700;
     }
 
     .custom-button{
-      width:80%;
+      width:100%;
     }
   .custom-heading{
    
     font-size:2rem;
   }
+ 
 
  
   
@@ -514,7 +536,7 @@ font-weight:700;
  
 
 
-}
+
     
   
   
