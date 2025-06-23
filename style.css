@@ -20,7 +20,9 @@
 
 
 
-
+.nav-link{
+  color:black !important;
+}
 
 
 li{
@@ -231,8 +233,9 @@ p,button,input,textarea,a,label{
     color:var(--title-color); 
 }
 .custom-width{
-   width:700px;
-   
+   max-width:700px;
+ max-height: 600px;
+  
 }
 
 .project-card{
@@ -429,10 +432,17 @@ width:100%;
 .react{ background:var(--button-color)  }
 
 
+.custom-image{
+ display:block;
+  max-height:600px;
+  object-fit:cover;
+}
 
-
-
-
+.responsive-text{
+  max-width:600px;
+  width:100%;
+  color:black;
+}
 
 
 
@@ -523,6 +533,9 @@ width:100%;
     
       max-height:600px;
     }
+    .custom-width{
+    
+    }
 
     .custom-card p{
       font-size:0.7rem;
@@ -548,8 +561,29 @@ width:100%;
  .custom-heading{
   font-size:2.5rem;
  }
-  
+  .my-flex {
+    min-height: 500px;
+  }
+
+
+.hero-text,
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
 }
+
+
+
+
+
+
+
+
+
+}
+
+
  
 
 
