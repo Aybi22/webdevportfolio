@@ -340,9 +340,9 @@ font-weight:700;
     /* Full height */
     height: 500px; 
   
-  width: 100vw;
+ 
   max-width: 100%;
-
+width:100%;
    
   
     /* Create the parallax scrolling effect */
@@ -456,10 +456,10 @@ font-weight:700;
     
    }
    .custom-text{
-    font-size:0.7rem;
+    font-size:1rem;
    }
    .custom-txt{
-    font-size:1rem;
+    font-size:1.5rem;
    }
   
   .custom-width{
@@ -476,7 +476,7 @@ font-weight:700;
     height:300px;
    }
    .portfolio-parallax {
-    height: auto;
+    height: 300px;
   }
   .parallax-text{
     font-size:2rem;
@@ -501,9 +501,17 @@ font-weight:700;
     font-size: 0.95rem;
     padding: 0.7em 1.2em;
   }
+
+.special-button{
+  font-size:0.8rem;
+  width:100%;
+  padding:0.5rem;
+}
+
+
 }
   
-  @media (min-width: 768px) and (max-width:1203px){
+  @media (min-width: 768px) and (max-width:1204px){
     .custom-width{
       margin:1rem;
     }
@@ -528,8 +536,13 @@ font-weight:700;
    
     font-size:2rem;
   }
- 
-
+ .custom-txt{
+  font-size:1.7rem;
+ }
+.custom-text{
+  font-size:1.4rem;
+  
+}
  
   
 }
