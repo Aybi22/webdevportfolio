@@ -228,16 +228,23 @@ p,button,input,textarea,a,label{
     font-size:3.9rem;
    color:var(--title-color);
    text-transform: capitalize;
+   min-height:2rem;
+   line-height: 1.4;
 }
 .h2-color{
     color:var(--title-color); 
 }
 .custom-width{
    max-width:700px;
- max-height: 600px;
+   width:100%;
+  min-height:500px;
+  line-height:1.4;
   
 }
-
+.my-flex{
+  
+  min-height:500px;
+}
 .project-card{
    height:100%;
 }
@@ -395,6 +402,7 @@ width:100%;
    max-width:500px;
    width:100%;
    padding:33px;
+ 
    
 }
 .custom-border{
@@ -547,10 +555,7 @@ width:100%;
     .custom-button{
       width:100%;
     }
-  .custom-heading{
-   
-    font-size:2rem;
-  }
+  
  .custom-txt{
   font-size:1rem;
  }
@@ -559,7 +564,7 @@ width:100%;
   
 }
  .custom-heading{
-  font-size:2.5rem;
+  font-size:2.3rem;
  }
   .my-flex {
     min-height: 500px;
