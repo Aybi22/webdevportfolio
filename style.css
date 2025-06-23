@@ -503,7 +503,7 @@ width:100%;
   }
 
 .special-button{
-  
+  font-size: 0.9rem;
   width:100%;
   
 }
@@ -539,13 +539,15 @@ width:100%;
     font-size:2rem;
   }
  .custom-txt{
-  font-size:1.7rem;
+  font-size:1rem;
  }
 .custom-text{
-  font-size:1.4rem;
+  font-size:1rem;
   
 }
- 
+ .custom-heading{
+  font-size:2.5rem;
+ }
   
 }
  
