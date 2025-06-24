@@ -468,18 +468,14 @@ width:100%;
 
 
 
-
 @media screen and (max-width:768px){
    .responsive-text{
     font-size:1rem;
     
    }
  
-.custom-heading{
 
 
-  font-size:1.7rem;
-}
    .custom-text{
     font-size:1rem;
    }
@@ -532,9 +528,7 @@ width:100%;
   width:100%;
   
 }
-.custom-heading{
-  font-size:1.7rem;
-}
+
 
 }
   
@@ -548,9 +542,7 @@ width:100%;
     
       max-height:600px;
     }
-    .custom-width{
     
-    }
 
     .custom-card p{
       font-size:0.7rem;
@@ -602,11 +594,13 @@ width:400px;
 }
 
 
+
  
 
 @media screen and (max-width:540px){
  .custom-heading{
-  font-size:2.5rem;
+  font-size:1.7rem;
+  
  }
 
 
