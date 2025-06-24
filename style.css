@@ -32,9 +32,7 @@ li{
 .custom-text{
   font-size: 2rem;
 }
-.custom-icon{
-  
-}
+
 
 html,body{
     margin:0;
@@ -153,6 +151,7 @@ html {
     height:40px;
     width:40px;
     transition:color 0.3s ease;
+    
 }
 .custom-icon:hover{
   color:var(--button-color);
