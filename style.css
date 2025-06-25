@@ -462,6 +462,7 @@ width:100%;
 
 
 
+    
 
 
 
@@ -473,7 +474,9 @@ width:100%;
     font-size:1rem;
     
    }
- 
+ .custom-heading{
+  font-size:1.7rem;
+ }
 
 
    .custom-text{
@@ -515,8 +518,9 @@ width:100%;
   }
 }
   
-  
-  @media (max-width: 540px) {
+ 
+ 
+  @media screen  and (max-width: 540px) {
   .custom-button {
     width: 100%;
     font-size: 0.95rem;
@@ -528,9 +532,16 @@ width:100%;
   width:100%;
   
 }
-
-
+.custom-heading{
+  font-size:1.7rem;
 }
+  .responsive-text{
+    font-size:0.8rem;
+    width:80%;
+    margin:auto;
+  }
+}
+
   
   @media (min-width: 768px) and (max-width:1204px){
     .custom-width{
@@ -597,16 +608,7 @@ width:400px;
 
  
 
-@media screen and (max-width:540px){
- .custom-heading{
-  font-size:1.7rem;
-  
- }
 
-
-}
-
-    
   
   
   
