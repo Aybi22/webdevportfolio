@@ -460,7 +460,11 @@ width:100%;
 
 
 
-
+.top-logo{
+  width:30px;
+  height:30px;
+  object-fit:cover;
+}
 
     
 
