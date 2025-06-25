@@ -515,6 +515,7 @@ width:100%;
   }
   .custom-button{
     width:auto;
+    margin-bottom:0.7rem;
     
   }
   .custom-icon{
@@ -529,6 +530,7 @@ width:100%;
     width: 100%;
     font-size: 0.95rem;
     padding: 0.7em 1.2em;
+    margin-bottom:0.7rem;
   }
 
 .special-button{
