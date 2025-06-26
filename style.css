@@ -521,7 +521,20 @@ width:100%;
   .custom-icon{
     font-size:1.5rem;
   }
+
+.custom-button {
+    margin-top: 1.5rem !important; /* overrides mt-5 */
+  }
+
+  .image-wrapper {
+    padding-top: 0.5rem;
+  }
 }
+
+
+
+
+
   
  
  
@@ -543,8 +556,12 @@ width:100%;
 }
   .responsive-text{
     font-size:0.8rem;
-    width:80%;
-    margin:auto;
+    width:90%;
+    margin:1rem auto;
+    
+
+  
+
   }
 }
 
@@ -590,6 +607,7 @@ width:400px;
 
   .my-flex {
     min-height: 500px;
+    border:1px solid red;
   }
 
 
