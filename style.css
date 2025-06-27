@@ -80,6 +80,7 @@ html {
 }
 .description{
   max-width:700px;
+  width:100%;
   margin:auto;
   background:#FDF5F5; 
   padding:33px;
@@ -104,10 +105,7 @@ html {
   display:flex;
   flex-direction: column;
   min-height:700px;
- 
-
-  
-}
+ }
 .project-links {
    /* center buttons horizontally */
   margin-top: auto;         /* pushes this container to the bottom */
@@ -126,9 +124,7 @@ html {
 .description h3{
   margin-bottom:3rem;
 }
- .custom-body{
-  border:7px solid yellow;
- } 
+ 
 
 .fluid-container {
   align-items: stretch;
@@ -189,12 +185,7 @@ p,button,input,textarea,a,label{
     font-family:Montserrat;
     font-size:1rem;
 }
-.logo{
-    width:50px;
-    
-    height:50px;
-    border-radius: 100%;
-}
+
 .custom-logo{
     color:var(--text-color);
     font-weight:900;
