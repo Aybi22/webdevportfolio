@@ -308,7 +308,7 @@ p,button,input,textarea,a,label{
 .custom-button{
     max-width:60%;
     width:100%;
-    margin-bottom: 2rem;
+    
     font-family: Montserrat;
     font-weight:500;
     padding:0.7rem;
@@ -343,9 +343,7 @@ font-weight:700;
 
    
 }
-.my-flex{
-    gap:3rem;
-}
+
 
   
 
@@ -445,12 +443,12 @@ width:100%;
 .git{ background:var(--button-color)  }
 .react{ background:var(--button-color)  }
 
-
 .custom-image{
  display:block;
   max-height:600px;
   object-fit:cover;
 }
+
 
 .responsive-text{
   max-width:600px;
@@ -515,7 +513,7 @@ width:100%;
   }
   .custom-button{
     width:auto;
-    margin-bottom:0.7rem;
+  
     
   }
   .custom-icon{
@@ -527,8 +525,17 @@ width:100%;
   }
 
   .image-wrapper {
-    padding-top: 0.5rem;
+    margin-top: 0;
+    padding-top: 0;
   }
+
+  .custom-image {
+    margin-top: 0;
+  }
+
+
+
+
 }
 
 
@@ -543,7 +550,7 @@ width:100%;
     width: 100%;
     font-size: 0.95rem;
     padding: 0.7em 1.2em;
-    margin-bottom:0.7rem;
+    
   }
 
 .special-button{
@@ -607,16 +614,11 @@ width:400px;
 
   .my-flex {
     min-height: 500px;
-    border:1px solid red;
+  
   }
 
 
-.hero-text,
-.image-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* vertical centering */
-}
+
 
 
 
