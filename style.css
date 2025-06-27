@@ -13,7 +13,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Playfair Display;
+    font-family:Playfair ;
     
 
 }
@@ -140,16 +140,18 @@ html {
     width:100%
   }
 .fa-linkedin,.fa-envelope{
-  width:35px;
-  height:35px;
+  width:30px;
+  height:30px;
 }
 .custom-icon{
     font-size:1.5rem;
     color:var(--title-color);
     display:inline-flex;
+    
     align-items:center;
-    height:40px;
-    width:40px;
+    height:30px;
+    width:30px;
+   
     transition:color 0.3s ease;
     
 }
@@ -243,8 +245,9 @@ p,button,input,textarea,a,label{
 .custom-width{
    max-width:700px;
    width:100%;
-  min-height:500px;
+ 
   line-height:1.4;
+ 
   
 }
 .my-flex{
