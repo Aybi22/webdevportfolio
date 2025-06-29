@@ -217,11 +217,11 @@ p,button,input,textarea,a,label{
 }
 
 .custom-heading{
-    font-size:3.9rem;
+    font-size:4rem;
    color:var(--title-color);
    text-transform: capitalize;
- min-height:2rem;
- line-height: 1.4;
+   min-height:2rem;
+   line-height: 1.3;
   
    
  }
