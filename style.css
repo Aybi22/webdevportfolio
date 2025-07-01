@@ -374,6 +374,13 @@ width:100%;
   z-index: 1;
 }
 
+.social-icons{
+ 
+  display:flex;
+  align-items: center;
+  gap:2rem;
+}
+
 .portfolio-parallax > * {
     position: relative;
     z-index: 2; /* so your text sits above the overlay */
