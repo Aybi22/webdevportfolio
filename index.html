@@ -852,10 +852,47 @@ typography, and color theory to create a modern digital magazine experience.
 
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+document.querySelectorAll("section").forEach((section) => {
+  gsap.from(section, {
+    scrollTrigger: {
+      trigger: section,
+      start: "top 85%",   // when top of section hits 85% of viewport
+      toggleActions: "play none none none", // onEnter only
+    },
+    opacity: 0,
+    y: 60,
+    duration: 0.8,
+    ease: "power2.out"
+  });
+});
+
+
+</script>
 
 
 
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
