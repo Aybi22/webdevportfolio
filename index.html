@@ -856,7 +856,6 @@ typography, and color theory to create a modern digital magazine experience.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script>
 gsap.registerPlugin(ScrollTrigger);
-
 document.querySelectorAll("section").forEach((section) => {
   gsap.from(section, {
     scrollTrigger: {
@@ -873,6 +872,18 @@ document.querySelectorAll("section").forEach((section) => {
 });
 
 
+gsap.from(".project-image", {
+  scrollTrigger: {
+    trigger: ".project-image", // uses the first image as trigger point
+    start: "top 85%",
+    toggleActions: "play none none none",
+  },
+  opacity: 0,
+  y: 50,
+  stagger: 0.2,  // <- this is the magic for smooth sequence
+  duration: 1,
+  ease: "power2.out"
+});
 </script>
 
 
