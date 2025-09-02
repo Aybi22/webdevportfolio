@@ -236,14 +236,14 @@ p,button,input,textarea,a,label{
 .custom-width{
    max-width:700px;
    width:100%;
- 
-  line-height:1.4;
- 
+
   
 }
 .my-flex{
   
   min-height:500px;
+   min-height: 80vh; /* ensures hero takes most of viewport height */
+  gap: 2rem;   
 }
 .project-card{
    height:100%;
@@ -448,6 +448,7 @@ width:100%;
  display:block;
   max-height:600px;
   object-fit:cover;
+  
 }
 
 
@@ -468,7 +469,13 @@ width:100%;
 }
 
     
-
+.image-wrapper {
+  display: flex;          /* side by side */
+  gap: 1rem;              /* space between images */
+  justify-content: center; /* center images horizontally */
+  align-items: center;    /* align images vertically */
+  flex-wrap: wrap;        /* wrap on smaller screens */
+}
 
 
 
