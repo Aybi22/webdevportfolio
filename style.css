@@ -18,7 +18,9 @@
 
 }
 
-
+.detail-section{
+  display:none;
+}
 
 .nav-link{
   color:black !important;
