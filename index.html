@@ -429,7 +429,7 @@ Additionally, I improved my skills in image optimization for the web, ensuring f
 Discovering and applying data attributes allowed me to handle dynamically injected HTML 
 more efficiently with JavaScript — a major step forward in working with interactive content and components.</p>
   </div>
-  <a class="btn btn-danger  special-button " arial-label="view detail-section">Read More</a>
+  <a class="btn btn-danger  special-button  detail" arial-label="view detail-section">Read More</a>
      
           
         <div class="project-links d-flex gap-4 justify-content-center  mt-auto">
@@ -506,7 +506,7 @@ more efficiently with JavaScript — a major step forward in working with intera
 
 
   </div>
- <a class="btn btn-danger  special-button " arial-label="view detail-section">Read More</a>
+ <a class="btn btn-danger  special-button  detail" arial-label="view detail-section">Read More</a>
 
     <div class="project-links d-flex gap-4 justify-content-center">
       <a class="btn btn-danger  special-button " arial-label="view live demo" href="https://aybi22.github.io/Bankapp/" target="_blank">Live Demo</a>
@@ -575,7 +575,7 @@ responses and focuses on delivering a smooth, intuitive experience.
     
     </div>
 
-     <a class="btn btn-danger  special-button " arial-label="view detail-section">Read More</a>
+     <a class="btn btn-danger  special-button  detail" arial-label="view detail-section">Read More</a>
 
 <div class="project-links d-flex gap-4 justify-content-center">
       <a class="btn btn-danger special-button" href="https://birkbeck2.github.io/vdwp2223-web-project-user-feedback-Aybi22/" target="_blank">Live Demo</a>
@@ -653,7 +653,7 @@ This experience deepened my understanding of cross-page data handling and reinfo
 </p>
 </div>
           
- <a class="btn btn-danger  special-button " arial-label="view detail-section">Read More</a>
+ <a class="btn btn-danger  special-button  detail" arial-label="view detail-section">Read More</a>
 
 
 
@@ -829,6 +829,23 @@ gsap.from(".project-image", {
   duration: 1,
   ease: "power2.out"
 });
+
+
+
+
+let detailBtn=document.querySelectorAll('.detail')
+
+detailBtn.forEach(btn=>{
+  btn.addEventListener('click',()=>{
+
+const detailSection=btn.closest('.description').querySelector('.detail-section');
+  detailSection.classList.toggle('showSection');
+
+});
+})
+
+
+
 </script>
 
 
