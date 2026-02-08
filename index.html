@@ -403,7 +403,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
           and maintainable front-end architecture using modular JavaScript and reusable components.
         </p>
         
-        <div class="detail-section">
+        <div id="detail-section-1" class="detail-section"  hidden>
           <h4>Features</h4>
             <ul>
              <li>dedicated mockups page to showcase my design previews</li> 
@@ -438,7 +438,7 @@ Additionally, I improved my skills in image optimization for the web, ensuring f
 Discovering and applying data attributes allowed me to handle dynamically injected HTML 
 more efficiently with JavaScript — a major step forward in working with interactive content and components.</p>
   </div>
-  <button class="btn btn-danger  special-button  detail" aria-label="view detail-section">Read More</button>
+  <button class="btn btn-danger  special-button  detail" aria-label="view detail-section"  aria-expanded="false"  aria-controls="detail-section-1">Read More</button>
      
           
        
@@ -476,7 +476,7 @@ more efficiently with JavaScript — a major step forward in working with intera
      user input validation, and dynamic UI updates.
      </p>
 
-     <div class="detail-section">
+     <div id="detail-section-2" class="detail-section"  hidden>
     
      <h4>Features</h4>
     <ul>
@@ -518,7 +518,7 @@ more efficiently with JavaScript — a major step forward in working with intera
 
 
   </div>
- <button class="btn btn-danger  special-button  detail" aria-label="view detail-section">Read More</button>
+ <button class="btn btn-danger  special-button  detail" aria-label="view detail-section"  aria-expanded="false" aria-controls="detail-section-2">Read More</button>
 
   
   </div>
@@ -551,7 +551,7 @@ and clean UI interactions. It encourages user participation through emoji-based
 responses and focuses on delivering a smooth, intuitive experience.
 
 </p>
-   <div class="detail-section"> 
+   <div  id="detail-section-3" class="detail-section" hidden> 
   
   <h4>Features</h4>
     <ul>
@@ -587,7 +587,7 @@ responses and focuses on delivering a smooth, intuitive experience.
 
    
 
-     <button class="btn btn-danger  special-button  detail" aria-label="view detail-section">Read More</button>
+     <button class="btn btn-danger  special-button  detail" aria-label="view detail-section" aria-expanded="false" aria-controls="detail-section-3" >Read More</button>
 
   <!-- Add more projects here similarly -->
 
@@ -623,7 +623,7 @@ responses and focuses on delivering a smooth, intuitive experience.
             all tailored for performance, accessibility, and visual appeal.
           </p>
 
-       <div class="detail-section">    
+       <div id="detail-section-4" class="detail-section" hidden>    
 <h4>Features</h4>
     <ul>
       <li>Dynamic Product listing with category filters animated
@@ -672,7 +672,7 @@ This experience deepened my understanding of cross-page data handling and reinfo
 </p>
 </div>
           
- <button class="btn btn-danger  special-button  detail" aria-label="view detail-section">Read More</button>
+ <button class="btn btn-danger  special-button  detail" aria-label="view detail-section"   aria-expanded="false" aria-controls="detail-section-4">Read More</button>
 
 
 
@@ -846,7 +846,7 @@ gsap.from(".project-image", {
 });
 
 
-
+/*
 
 let detailBtn=document.querySelectorAll('.detail')
 
@@ -859,7 +859,10 @@ const detailSection=btn.closest('.description').querySelector('.detail-section')
 });
 })
 
+*/
 
+const buttons=document.querySelectorAll('.detail');
+console.log(buttons);
 
 </script>
 
