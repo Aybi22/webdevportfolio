@@ -874,11 +874,11 @@ console.log(details);
 const isOpen=btns.getAttribute('aria-expanded')==="true";
 
 if(isOpen){
-  details.hidden='true';
+  details.hidden=true;
   btns.setAttribute('aria-expanded','false');
   btns.textContent='Read More';
 }else{
-  details.hidden='false';
+  details.hidden=false;
   btns.setAttribute('aria-expanded','true');
   btns.textContent='Show Less';
 }
