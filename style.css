@@ -101,12 +101,17 @@ html {
  
  
 }
+#projects{
+  background-color: var(--background-color);
+}
 
 .project-wrapper {
   height: 100%;
   min-height: 100%;
 }
-
+#skills{
+background: #FFFFFF;
+}
 
 .custom-row{
   border:2px solid red;
