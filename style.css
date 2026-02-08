@@ -175,6 +175,7 @@ h3{
     font-size:1.4rem;
     text-transform:capitalize;
     color:var(--title-color);
+    color:var(--button-color);
     font-weight:700;
 
   }
