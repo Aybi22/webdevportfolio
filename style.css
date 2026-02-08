@@ -179,6 +179,11 @@ h3{
     font-weight:700;
 
   }
+
+.skill-title{
+    color:var(--button-color);
+}
+
 .description li{
   margin-bottom:0.4rem;
 }

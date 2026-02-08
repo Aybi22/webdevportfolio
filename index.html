@@ -240,7 +240,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
       <div class="bg-white p-4 border rounded shadow-sm  w-100 h-100 text-center d-flex flex-column flex-grow-1 ">
       
         <i class="fa-brands fa-html5   icon-size skill-icon "></i>
-   <h3 class="text-capitalize  mb-3  " >HTML5</h3>
+   <h3 class="text-capitalize  mb-3  skill-title" >HTML5</h3>
    <p>I create clean, semantic HTML structures that ensure accessibility and maintainability</p>
    
   
@@ -256,7 +256,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
       
      
         <i class="fa-brands fa-css   icon-size   skill-icon "></i>
-<h3 class="text-capitalize mb-3 " >CSS</h3>
+<h3 class="text-capitalize mb-3 skill-title" >CSS</h3>
 <p>Proficient in responsive layouts, Flexbox, and animations to create visually engaging designs.</p>
       
 
@@ -275,7 +275,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
      
 
         <i class="fa-brands fa-figma  icon-size   skill-icon "></i>
-<h3 class="text-capitalize   mb-3  " >figma</h3>
+<h3 class="text-capitalize   mb-3 skill-title " >figma</h3>
       
     <p>Design modern, clean interfaces and turn them into pixel-perfect code.</p>  
    
@@ -290,7 +290,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
       
       
         <i class="fa-brands fa-js icon-size  skill-icon "></i>
-<h3 class="text-capitalize    mb-3 ">javascript</h3>
+<h3 class="text-capitalize    mb-3   skill-title  ">javascript</h3>
    <p>Build dynamic interfaces with vanilla JavaScript; familiar with DOM manipulation and API calls.</p> 
    
 </div>
@@ -305,7 +305,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
       
     
         <i class="fa-brands fa-bootstrap  icon-size  skill-icon  "></i>
-      <h3 class="text-capitalize   mb-3   ">bootstrap</h3>
+      <h3 class="text-capitalize   mb-3  skill-title ">bootstrap</h3>
       <p>Use Bootstrap's grid system and components to speed up development of responsive UIs.</p>
       
     
@@ -317,7 +317,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
       
       
         <i class="fa-brands fa-git-alt icon-size   skill-icon "></i>
-<h3 class="text-capitalize   mb-3 " >git</h3>
+<h3 class="text-capitalize   mb-3  skill-title"  >git</h3>
     <p>Comfortable using Git for version control, collaborating on GitHub with pull requests and branches.</p>  
     
 </div>
@@ -332,7 +332,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
   
   <i class="fa-brands fa-react icon-size   skill-icon  "></i>
 
-<h3 class="text-capitalize mb-3   " >react</h3>
+<h3 class="text-capitalize mb-3  skill-title " >react</h3>
 <p>Currently learning the fundamentals of React to build interactive and component-based UIs</p>   
 
 </div>
@@ -350,7 +350,7 @@ take projects from initial concept and wireframe all the way to a fully responsi
  <i class="fa-solid fa-mobile  icon-size  skill-icon"></i>
   
 
-<h3 class="text-capitalize   mb-3   " >responsive web design</h3>
+<h3 class="text-capitalize skill-title  mb-3   " >responsive web design</h3>
 <p>Ensure mobile-first, cross-browser compatibility using media queries and fluid layouts.</p>   
 
 </div>
@@ -862,13 +862,29 @@ const detailSection=btn.closest('.description').querySelector('.detail-section')
 */
 
 const buttons=document.querySelectorAll('.detail');
-console.log(buttons);
+
 
 buttons.forEach(btns=>{
   btns.addEventListener('click',()=>{
-const sectionId=btns.getAttribute('aria-controls')
-  }
+const sectionId=btns.getAttribute('aria-controls');
+console.log(sectionId);
+const details=document.getElementById(sectionId);
+console.log(details);
+  
+const isOpen=btns.getAttribute('aria-expanded')==="true";
+
+if(isOpen){
+  details.hidden='true';
+  btns.setAttribute('aria-expanded','false');
+  btns.textContent='Read More';
+}else{
+  details.hidden='false';
+  btns.setAttribute('aria-expanded','true');
+  btns.textContent='Show Less';
 }
+
+});
+});
 
 
 
