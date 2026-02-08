@@ -27,6 +27,8 @@
 
 .detail{
   background:var(--title-color);
+  border:none;
+  
 }
 
 .nav-link{
