@@ -28,6 +28,7 @@
 .detail{
   background:var(--title-color);
   border:none;
+  margin-top:auto;
   
 }
 
@@ -93,7 +94,8 @@ html {
   max-width:700px;
   width:100%;
   margin:auto;
-  background:#FDF5F5; 
+  min-height:600px;
+ 
   padding:33px;
   display:flex;
   flex-direction:column;
@@ -258,6 +260,11 @@ p,button,input,textarea,a,label{
 }
 .project-card{
    height:100%;
+  
+}
+.project-section{
+  
+   
 }
 
 .card-img-top{
