@@ -475,9 +475,13 @@ width:100%;
  display:block;
   max-height:600px;
   object-fit:cover;
-  
 }
-
+a.btn.btn-outline-dark.figma{
+  display:block;
+}
+.about-image{
+    border:2px solid#dc3545;
+}
 
 .responsive-text{
   max-width:600px;
