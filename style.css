@@ -349,6 +349,10 @@ p,button,input,textarea,a,label{
     padding:0.7rem;
     
 }
+.read-more-container{
+  display:flex;
+  justify-content:center;
+}
 
 .nav-btn{
 width:100%;
