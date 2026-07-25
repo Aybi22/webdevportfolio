@@ -348,10 +348,12 @@ p,button,input,textarea,a,label{
     font-weight:500;
     padding:0.7rem;
     
+    
 }
 .read-more-container{
   display:flex;
   justify-content:center;
+  margin-top: auto;
 }
 
 .nav-btn{
