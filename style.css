@@ -234,10 +234,13 @@ p,button,input,textarea,a,label{
  
    min-height:600px;
   
-   
-   
-}
+  }
 
+  .project-section{
+   
+   
+   
+  }
 .custom-heading{
     font-size:4rem;
    color:var(--title-color);
@@ -339,7 +342,7 @@ p,button,input,textarea,a,label{
 
 .special-button{
     max-width:100%;
-    width:100%;
+    width:230px;
     margin-bottom: 2rem;
     font-family: Montserrat;
     font-weight:500;
